@@ -1,0 +1,3 @@
+test!
+<hr>
+<?=$someMessage;?>
