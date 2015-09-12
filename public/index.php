@@ -4,8 +4,8 @@
  *
  * @package dspf
  * @author Filisko
- * @link [github]
- * @license [licencia]
+ * @link https://github.com/Filisko/dspf
+ * @license https://raw.githubusercontent.com/Filisko/dspf/master/LICENSE
  */
 
 define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
