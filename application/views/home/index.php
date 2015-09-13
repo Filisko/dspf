@@ -1,2 +1,2 @@
-<h1>$someMessage is down here!</h1>
+<h1>Home</h1>
 <p><?=$someMessage;?></p>
