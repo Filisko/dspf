@@ -1,4 +1,3 @@
-</div>
-<script src="assets/js/theme.js"></script>
+</section>
 </body>
 </html>
