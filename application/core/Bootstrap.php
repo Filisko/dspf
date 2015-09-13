@@ -14,7 +14,7 @@ class Bootstrap
         {
             require_once APP . 'core/Controller.php';
             require_once APP . 'core/Model.php';
-
+            
             require_once $controllerPath;
 
             if (class_exists($controller))
@@ -34,17 +34,20 @@ class Bootstrap
                 }
                 else
                 {
-                    echo 'No se ha encontrado el m&eacute;todo del controlador.';
+                    // If method doesn't exists
+                    header("Location:" . URL . 'error');
                 }
             }
             else
             {
-                echo 'No se ha encontrado la clase del controlador.';
+                // If controller's class not found
+                header("Location:" . URL . 'error');
             }
         }
         else
         {
-            echo 'No se ha encontrado el archivo controlador.';
+            // If controller file not found
+            header("Location:" . URL . 'error');
         }
     }
 }
