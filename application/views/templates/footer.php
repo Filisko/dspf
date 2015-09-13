@@ -1,4 +1,4 @@
-<hr>
-&copy; <?php echo APP_NAME; ?> <?php echo date('Y'); ?>
+</div>
+<script src="assets/js/theme.js"></script>
 </body>
 </html>
