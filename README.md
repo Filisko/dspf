@@ -5,5 +5,5 @@ Damn Simple PHP Framework uses the lightest PHP database framework to accelerate
 
 ## Installation
 * Download and extract
-* Go to application/Config.php and configure it
+* Go to **application/config/Config.php** and configure it
 * Now you're ready to go!
