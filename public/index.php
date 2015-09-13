@@ -13,6 +13,6 @@ define('APP', ROOT . 'application' . DIRECTORY_SEPARATOR);
 
 session_start();
 
-require_once APP . 'Config.php';
+require_once APP . 'config/Config.php';
 require_once APP . 'core/Bootstrap.php';
 $bootstrap = Bootstrap::run(new Request());
