@@ -3,7 +3,7 @@
  * Damn Simple PHP Framework
  *
  * @package dspf
- * @author Filisko
+ * @author Filis Futsarov
  * @link https://github.com/Filisko/dspf
  * @license https://raw.githubusercontent.com/Filisko/dspf/master/LICENSE
  */
