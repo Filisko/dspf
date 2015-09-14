@@ -3,7 +3,7 @@ class Controller
 {
     public function model($name, $arg="")
     {
-        require_once APP . 'models/' . strtolower($name) . 'Model.php';
+        require_once APP . 'models/' . strtolower($name) . '.php';
         if (count($arg) == 0) {
                 $name = new $name();
         } else {

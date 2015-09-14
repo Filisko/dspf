@@ -1,5 +1,5 @@
 <?php
-class aboutController extends Controller
+class About extends Controller
 {
     public function index()
     {

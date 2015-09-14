@@ -2,7 +2,6 @@
 <html lang="<?=APP_LANGUAGE;?>">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?=APP_NAME; ?> - <?=$title;?></title>
     <meta name="author" content="<?=APP_AUTHOR;?>">
     <meta name="description" content="<?php echo APP_DESCRIPTION; ?>">

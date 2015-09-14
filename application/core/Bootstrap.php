@@ -5,8 +5,8 @@ class Bootstrap
 {
     public static function run($request)
     {
-        $controller = $request->getController() . 'Controller';
-        $controllerPath = APP . 'controllers/' . $controller . '.php';
+        $controller = $request->getController();
+        $controllerPath = APP . 'controllers/' . strtolower($controller) . '.php';
         $method = $request->getMethod();
         $args = $request->getArgs();
 
