@@ -7,7 +7,7 @@
     <meta name="description" content="<?php echo APP_DESCRIPTION; ?>">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/theme.css">
-    <!--<link rel="shortcut icon" href="assets/img/ico.ico">-->
+    <link rel="shortcut icon" href="assets/img/icon.png">
 </head>
 
 <body>
