@@ -21,10 +21,5 @@ define('DB_CHARSET', 'utf8');
 define('APP_LANGUAGE', 'en');
 define('APP_NAME', 'Damn Simple PHP Framework');
 define('APP_DESCRIPTION', 'Testing Damn Simple PHP Framework');
-define('APP_AUTHOR', 'Filis Futsarov');
+define('APP_AUTHOR', 'Filisko');
 
-if (DEBUG == true) {
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(-1);
-}
