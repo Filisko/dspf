@@ -8,8 +8,8 @@ Damn Simple PHP Framework uses the lightest PHP database framework to accelerate
 * Go to **application/config/Config.php** and configure it
 * Now you're ready to go!
 
-## Create a simple page
-### Creating the controller
+## How to create a simple page
+### Controller
 To create a controller, you must go to **application/controllers** folder and create a php file with your controller's name.
 ```php
 <?php
