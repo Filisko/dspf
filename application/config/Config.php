@@ -1,4 +1,5 @@
 <?php
+
 // # MAIN CONFIG
 define('DEBUG', true);
 define('URL', 'http://localhost/dspf/public/');

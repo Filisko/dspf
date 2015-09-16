@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Damn Simple PHP Framework
  *
@@ -7,7 +8,6 @@
  * @link https://github.com/Filisko/dspf
  * @license https://raw.githubusercontent.com/Filisko/dspf/master/LICENSE
  */
-
 define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 define('APP', ROOT . 'application' . DIRECTORY_SEPARATOR);
 

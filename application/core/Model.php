@@ -1,8 +1,8 @@
 <?php
-abstract class Model
-{
-    public function database()
-    {
+
+abstract class Model {
+
+    public function database() {
         require_once 'lib/medoo.min.php';
 
         $connection = new medoo([
@@ -19,4 +19,5 @@ abstract class Model
 
         return $connection;
     }
+
 }
