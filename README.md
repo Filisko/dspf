@@ -43,3 +43,6 @@ class Page extends Controller {
 }
 
 ```
+### View
+To create view, you must go to **application/views** folder and create a folder for your view and then put an index.php inside of it, or create your PHP file inside of **application/views** folder, you decide. In the example above, we created a folder and then we put an index.php file inside of it.
+Remember that you can declare a variable inside of your view and set a value to it with the **set()** method.
