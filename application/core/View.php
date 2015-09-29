@@ -1,7 +1,7 @@
 <?php
 class View
 {
-    private $pageVars = array();
+    private $pageVars = [];
     private $view;
 
     public function __construct($view)

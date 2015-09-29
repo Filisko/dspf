@@ -26,7 +26,7 @@ class Request {
         }
 
         if (!$this->_args) {
-            $this->_args = array();
+            $this->_args = [];
         }
     }
 

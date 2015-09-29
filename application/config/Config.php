@@ -2,7 +2,7 @@
 
 // # MAIN CONFIG
 define('DEBUG', true);
-define('URL', 'http://localhost/dspf/public/');
+define('URL', 'http://localhost/dspf/dspf/public/');
 
 // # DATABASE TYPES CONFIG
 // -> MySQL         =   mysql
@@ -23,4 +23,3 @@ define('APP_LANGUAGE', 'en');
 define('APP_NAME', 'Damn Simple PHP Framework');
 define('APP_DESCRIPTION', 'Testing Damn Simple PHP Framework');
 define('APP_AUTHOR', 'Filisko');
-
