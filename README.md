@@ -4,8 +4,8 @@ Damn Simple PHP Framework is a small and simple PHP framework that will help you
 Damn Simple PHP Framework uses the lightest PHP database framework to accelerate development called [Medoo](http://medoo.in/).
 
 ## Installation
-* Download and extract the repository in your webserver
-* Go to **application/config/Config.php** and configure it
+* Download and extract the repository in your webserver.
+* Go to **application/config/Config.php** and configure it according to your needs.
 * Now you're ready to go!
 
 ## How to create a simple page
@@ -43,3 +43,6 @@ class Page extends Controller {
 }
 
 ```
+### View
+To create view, you must go to **application/views** folder and create a folder for your view and then put an index.php inside of it, or create your PHP file inside of **application/views** folder. In the example above, we created a folder and then we put an index.php file inside of it.
+Remember that you can declare a variable inside of your view and set a value to it with the **set()** method.
