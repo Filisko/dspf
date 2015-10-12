@@ -1,5 +1,5 @@
 # Damn Simple PHP Framework
-This is my first PHP framework done from scratch few years ago. I found it on my hard drive and I just wanted to share it. It might be useful for some people.
+This is my first PHP framework done from scratch few years ago. I found it on my hard drive and I just wanted to share it. It might be useful for some people. I use it for simple websites that don't require many features.
 
 Damn Simple PHP Framework is a small and simple PHP framework that will help you to develop your web applications easily.
 
