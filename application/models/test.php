@@ -1,8 +1,8 @@
 <?php
-
 class test extends Model {
 
-    public function message() {
+    public function message()
+    {
         return 'Message from the model!';
     }
 

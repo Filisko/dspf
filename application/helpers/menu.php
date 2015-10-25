@@ -1,5 +1,4 @@
 <?php
-
 class Menu {
 
     private $_menu = array();

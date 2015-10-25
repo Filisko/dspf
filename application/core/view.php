@@ -1,6 +1,6 @@
 <?php
-class View
-{
+class View {
+    
     private $pageVars = [];
     private $view;
 

@@ -1,7 +1,6 @@
 <?php
-
 class Request {
-
+    
     private $_controller;
     private $_method;
     private $_args;
@@ -18,7 +17,7 @@ class Request {
         }
 
         if (!$this->_controller) {
-            $this->_controller = 'home';
+            $this->_controller = $GLOBALS['dspf']['main']['default'];
         }
 
         if (!$this->_method) {
@@ -41,5 +40,4 @@ class Request {
     public function getArgs() {
         return $this->_args;
     }
-
 }
